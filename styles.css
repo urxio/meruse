@@ -16,3 +16,21 @@ body {
   .services {
     margin-top: 20px;
   }
+
+  .image-container {
+    position: relative;
+    width: 100%; /* Set the width to your desired size */
+    
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; /* Position the text in the middle vertically */
+    left: 50%; /* Position the text in the middle horizontally */
+    transform: translate(-50%, -50%); /* Center the text */
+    text-align: center; /* Center the text horizontally */
+  }
+
+  h1, p {
+    color: white;
+  }
