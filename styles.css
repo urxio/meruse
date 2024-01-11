@@ -32,6 +32,10 @@ body {
     text-align: center; /* Center the text horizontally */
   }
 
-  h1, p {
+  h1 {
+color: gold;
+  }
+  
+  p {
     color: white;
   }
