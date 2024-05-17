@@ -53,11 +53,11 @@ p {
 }
 
 .contact {
-  background: linear-gradient(45deg, #000000, #434343); /* Gradient of different shades of black */
+  background: linear-gradient(45deg, #0000FF, #4169E1, #1E90FF);
   padding: 20px; /* Optional: Add padding to the section */
 }
 
 .about {
-  background: linear-gradient(45deg, #003300, #004400, #005500); /* Gradient of different shades of dark green */
+  background: linear-gradient(45deg, #000000, #434343); 
   padding: 20px; /* Optional: Add padding to the section */
 }
