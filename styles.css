@@ -17,6 +17,8 @@ body {
 
 h1 {
   color: gold;
+  font-size: 9em; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
