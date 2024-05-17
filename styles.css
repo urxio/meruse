@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.overlay-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: gold;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.services {
+  background: linear-gradient(45deg, #FFD700, #B8860B, #8B4513); /* Gradient of different shades of gold brown */
+  padding: 20px; /* Optional: Add padding to the section */
+}
+
+.column {
+  border-radius: 10px; /* Change this to your desired border radius */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for transform and box-shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial box shadow */
+}
+
+.column:hover {
+  transform: translateY(-10px); /* Move the column up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.column {
+  animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+}
+
+.contact {
+  background: linear-gradient(45deg, #000000, #434343); /* Gradient of different shades of black */
+  padding: 20px; /* Optional: Add padding to the section */
+}
+
+.about {
+  background: linear-gradient(45deg, #003300, #006600, #009900); /* Improved gradient of different shades of dark green */
+  padding: 20px; /* Optional: Add padding to the section */
+}
